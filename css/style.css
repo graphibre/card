@@ -1,7 +1,26 @@
-body{
-  font-family: 'Inknut Antiqua', serif;
+.card{
+  width: 300px;
+  background-color: ghostwhite;
+  border-radius: 0 0 5px 5px;
+  font-family: 'Miriam Libre', sans-serif;
+  filter: drop-shadow(16px 16px 20px gray)
 }
 
-.intro{
-  max-width: 300px;
+img{
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+  .card_title{
+    margin: 5px 15px 5px 15px;
+    font-size: 1.2em;
+}
+  .card_link{
+    margin: 5px 15px 5px 15px;
+    font-size: 1em;
+}
+  .card_intro{
+    margin: 5px 15px 5px 15px;
+    padding-bottom: 20px;
+    font-size: 0.8em;
 }
